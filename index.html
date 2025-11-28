@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>MiniLinked Pro Advanced</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <link rel="stylesheet" href="/styles.css"/>
+</head>
+<body>
+  <header class="top-nav"><div class="logo">miniLinked Pro Advanced</div></header>
+  <main class="container">
+    <section id="auth" class="card">
+      <h3>Login / Register</h3>
+      <input id="email" placeholder="Email"/><br/>
+      <input id="password" type="password" placeholder="Password"/><br/>
+      <button id="loginBtn">Login</button>
+      <button id="registerBtn">Register</button>
+    </section>
+    <section id="feed" class="card hidden">
+      <div>
+        <textarea id="postContent" placeholder="Share..."></textarea><br/>
+        <button id="postBtn">Post</button>
+      </div>
+      <div id="posts"></div>
+    </section>
+  </main>
+<script src="/app.js"></script>
+</body>
+</html>
